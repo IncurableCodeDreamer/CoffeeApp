@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Check"
+        android:layout_width="75dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_check_black_24dp" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_marginBottom="120dp"
+        android:layout_toRightOf="@id/Check"
+        android:gravity="center"
+        android:text="Latte"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="12.00 zł"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/SelectBtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/Price"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:text="Wybierz"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+</RelativeLayout>
