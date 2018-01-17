@@ -5,6 +5,9 @@ package com.example.klaudia.coffeeapp;
  */
 
 public class Coffee {
+    private String Name;
+    private String Price;
+
     public String getName() {
         return Name;
     }
@@ -20,9 +23,6 @@ public class Coffee {
     public void setPrice(String price) {
         Price = price;
     }
-
-    private String Name;
-    private String Price;
 
     public Coffee(String Name, String Price) {
         this.Name=Name;

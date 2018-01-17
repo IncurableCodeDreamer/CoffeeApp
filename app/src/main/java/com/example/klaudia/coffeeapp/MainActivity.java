@@ -14,11 +14,6 @@ import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
-    @BindView(R.id.TableNumber)
-    EditText Number;
-    @BindView(R.id.GoBtn)
-    Button GoBtn;
-
     @OnClick(R.id.GoBtn)
     public void onClick(View v){
         Intent intent = new Intent (MainActivity.this, Main2Activity.class);
